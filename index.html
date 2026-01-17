@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Tailwind project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="index css/index.css">
 </head>
-<body>
-    
+<body >
+    <header>
+        <nav class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center my-10 gap-5 lg:gap-0  ">
+           <div>
+            <img src="./images/logo2.png" alt="">
+           </div>
+           <ul class="text-lg font-normal text-[#707070] flex flex-col sm:flex-row items-center gap-8">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a> <i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="">Cases</a> <i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="">Blog</a> <i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="">Contact Us</a> <i class="fa-solid fa-chevron-right"></i></li>
+           </ul>
+           <button class="bg-[#B68C5A] text-[#ffffff] rounded-lg py-4 px-7 text-lg font-semibold">Free Consultation</button>
+        </nav>
+    </header>
 </body>
 </html>
